@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Universidad - Home</title>
+  <meta name="description" content="Venda de cursos online da empresa Universidad.">
+  <!------------ Fontes ------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!------------ Estilos ------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!------------ Javascript ------------->
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img src="img/logo.jpg" alt="Logo da Universidad" class="header__logo">
+    </a>
+
+    <nav class="header__nav">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#inicio">Início</a></li>
+        <li><a class="nav__link" href="#recursos">Recursos</a></li>
+        <li><a class="nav__link" href="#cursos">Cursos</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__icons">
+      <div class="icon fas fa-bars js-menu-btn" id="menu-btn"></div>
+      <div class="icon fas fa-search js-search-btn" id="search-btn"></div>
+      <div class="icon fas fa-shopping-cart js-cart-btn" id="cart-btn"></div>
+      <div class="icon fas fa-user js-login-btn" id="login-btn"></div>
+    </div>
+
+    <form class="header__form-search">
+      <input type="search" id="form__search" placeholder="Pesquise o curso">
+      <label for="form__search" class="fas fa-search"></label>
+    </form>
+
+    <div class="header__cart">
+      <table class="cart__box">
+        <thead>
+          <tr>
+            <th>Imagem</th>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <p class="total">Total: R$ <span>0,00</span></p>
+      <div class="cart__btn">
+        <button class="btn btn--limpar">Esvaziar</button>
+        <button class="btn btn--finalizar">Finalizar</button>
+      </div>
+    </div>
+
+    <form class="header__form-login">
+      <h3>Faça o login</h3>
+      <input type="email" placeholder="Seu e-mail" class="form-login">
+      <input type="password" placeholder="Sua senha" class="form-login">
+      <div class="form-title">
+        <p>Esqueceu sua senha <a href="#">Clique aqui</a></p>
+        <p>Não tem uma conta <a href="#">Crie agora</a></p>
+      </div>
+      <input type="submit" value="Entrar" class="btn">
+    </form>
+  </header>
+
+  <section class="container hero" id="inicio">
+    <div class="hero__content">
+      <h2 class="hero__title">Aprenda <span>algo novo</span></h2>
+      <p class="hero__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore nisi.
+      </p>
+      <div class="hero__btn">
+        <a href="#cursos" class="btn">Cursos</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container recursos" id="recursos">
+    <div class="recursos__container">
+      <div class="recursos__box">
+        <div class="recursos__img">
+          <img src="img/icono1.png" alt="Lampada">
+        </div>
+        <p class="recursos__text">
+          20.000 Cursos en linha <br>
+          Explora os temas mais recentes.
+        </p>
+      </div>
+
+      <div class="recursos__box">
+        <div class="recursos__img">
+          <img src="img/icono2.png" alt="Alvo">
+        </div>
+        <p class="recursos__text">
+          Instrutores expertos <br>
+          Aprende com diferentes estilos.
+        </p>
+      </div>
+
+      <div class="recursos__box">
+        <div class="recursos__img">
+          <img src="img/icono3.png" alt="Relogio">
+        </div>
+        <p class="recursos__text">
+          Acesso para a vida toda <br>
+          Aprenda a seu ritmo.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cursos" id="cursos">
+    <h1 class="heading">Cursos</h1>
+
+    <div class="container__cursos">
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso1.jpg" alt="Curso 1" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">HTML5 e CSS3 para iniciantes</h3>
+          <p class="cursos__author">Carla Santos</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>80</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="1">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso2.jpg" alt="Curso 2" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Comida Vegetariana</h3>
+          <p class="cursos__author">Jade Suellen</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>20</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="2">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso3.jpg" alt="Curso 1" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Guitarra para iniciantes</h3>
+          <p class="cursos__author">Tarique Layon</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>120</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="3">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso4.jpg" alt="Curso 4" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Horta em sua casa</h3>
+          <p class="cursos__author">Julia Gonçalves</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>10</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="4">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso5.jpg" alt="Curso 5" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Decoração ao lar</h3>
+          <p class="cursos__author">Patricia Ananias</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>15</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="5">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso6.jpg" alt="Curso 6" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">UI e UX design</h3>
+          <p class="cursos__author">Jade Suellen</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>100</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="6">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso7.jpg" alt="Curso 7" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Comida mexicana</h3>
+          <p class="cursos__author">Julia Gonçalves</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>10</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="7">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso8.jpg" alt="Curso 8" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Dublagem profissional</h3>
+          <p class="cursos__author">Patricia Ananias</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>50</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="8">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso9.jpg" alt="Curso 9" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Javascript ES6+</h3>
+          <p class="cursos__author">Carla Santos</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>150</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="9">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso10.jpg" alt="Curso 10" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Motorista de ônibus</h3>
+          <p class="cursos__author">Domingos Alberto</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>30</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="10">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso11.jpg" alt="Curso 11" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Piloto de avião comercial</h3>
+          <p class="cursos__author">Tarique Layon</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>120</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="11">Adicionar ao carrinho</a>
+        </div>
+      </article>
+
+      <article class="cursos__item">
+        <figure class="cursos__picture">
+          <img class="cursos__img" src="img/curso12.jpg" alt="Curso 12" width="200" height="200">
+        </figure>
+        <div class="cursos__texts">
+          <h3 class="cursos__title">Cultura Japonesa</h3>
+          <p class="cursos__author">Claudio Oliveira</p>
+          <img src="img/estrellas.png">
+          <p class="cursos__price">R$ <span>40</span></p>
+        </div>
+        <div class="cursos__btn">
+          <a href="#" class="card__img js-carrinho" data-id="12">Adicionar ao carrinho</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__description">
+      Desenvolvido por <span>Carla Santos</span>
+    </p>
+    <a href="https://github.com/carla-santos" target="_blank" rel="noopener noreferrer">
+      <img class="github" src="img/github.svg" alt="Github">
+    </a>
+  </footer>
+</body>
+
+</html>
