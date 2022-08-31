@@ -41,7 +41,7 @@ html {
   }  
 }
 
-@media (max-width: 450px) { 
+@media (max-width: 490px) { 
   html {
     font-size: 40%;
   }  
@@ -306,7 +306,7 @@ img {
 
 @media (max-width: 768px) { 
   .header__cart {
-    width: 65rem;
+    width: 50rem
   }
 }
 
@@ -317,7 +317,7 @@ img {
 
 @media (max-width: 768px) { 
   .header__cart.active {
-    right: 2.2rem;
+    right: 4rem
   }
 }
 
