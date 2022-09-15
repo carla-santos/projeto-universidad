@@ -95,6 +95,6 @@ Meus outros links: [https://github.com/carla-santos](https://github.com/carla-sa
 - [Img Shields](https://shields.io)
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com)
-- [Juan Pablo De la torre Valdez](https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/)
+- [Juan Pablo De la torre Valdez](https://www.udemy.com/user/juanpablodelatorrevaldez/)
 
 ---
