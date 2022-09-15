@@ -21,10 +21,9 @@
 
 [![Screenshot](https://github.com/carla-santos/projeto-universidad/blob/main/img/screenshot.png)](https://carla-santos.github.io/projeto-universidad/)
 
-**Projeto Universidad** é um site fictício de venda de cursos. Foi desenvolvido com o intuito de praticar HTML5, CSS3 e Javascript.
-### Tecnologias <a name = "tecnologias"></a> :wrench:
+**Projeto Universidad** é um site fictício de venda de cursos com carrinho de compras. Foi desenvolvido com base no curso [JavaScript Moderno Guía Definitiva Construye +15 Proyectos](https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/) do professor **Juan Pablo De la torre Valdez** como uma forma de praticar **HTML5, CSS3 e Javascript.**
 
-O jogo foi desenvolvido com **JavaScript**, além de **HTML5** e **CSS3**.
+### Tecnologias <a name = "tecnologias"></a> :wrench:
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
@@ -96,5 +95,6 @@ Meus outros links: [https://github.com/carla-santos](https://github.com/carla-sa
 - [Img Shields](https://shields.io)
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com)
+- [Juan Pablo De la torre Valdez](https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/)
 
 ---
